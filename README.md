@@ -2,7 +2,7 @@
 
 
 
-## Al hacer pull del repositorio se deben correr estos comandos
+## Al hacer pull del repositorio se deben correr solo uno de estos comandos, "recomiendo npm"
 
 ```
 # yarn
@@ -18,7 +18,7 @@ pnpm install
 bun install
 ```
 
-### Estos comandos son para inciar el servidor en local
+### Estos comandos son para inciar el servidor en local "es depende el paquete utilizado"
 
 ```
 # yarn
