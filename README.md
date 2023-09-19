@@ -1,6 +1,8 @@
-# base
+# Prototipo
 
-## Project setup
+
+
+## Al hacer pull del repositorio se deben correr estos comandos
 
 ```
 # yarn
@@ -16,7 +18,7 @@ pnpm install
 bun install
 ```
 
-### Compiles and hot-reloads for development
+### Estos comandos son para inciar el servidor en local
 
 ```
 # yarn
@@ -32,37 +34,15 @@ pnpm dev
 bun run dev
 ```
 
-### Compiles and minifies for production
-
-```
-# yarn
-yarn build
-
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# bun
-bun run build
+### Este comando es para inciar el servidor con npm en la red local, para poder verla desde el celular, debe estar conectado a la misma red
 ```
 
-### Lints and fixes files
+#npm
+npm run dev -- --host
 
 ```
-# yarn
-yarn lint
 
-# npm
-npm run lint
-
-# pnpm
-pnpm lint
-
-# bun
-bun run lint
-```
+Si no permite usar los comandos hacerlo como super usuario (sudo)
 
 ### Customize configuration
 
